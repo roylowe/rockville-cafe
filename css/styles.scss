@@ -1,0 +1,24 @@
+/* scss variables */
+$color-primary: #eb7d7a;
+$nav-backgroundcolor: #e2e6b4;
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    
+    background-image: linear-gradient(to right, #eb7d7a, #cf7575, #eb2727);
+    color: white;
+}
+.jumbotron-h1{
+   text-align: center; 
+   padding-right: 40%;
+   
+}
+
+.navbar {
+    background-color: $nav-backgroundcolor; 
+}
+
+.nav-link{
+    text-decoration: none;
+}

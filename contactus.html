@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap CSS-->
+      <!-- build:css css/main.css-->
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <!--Additional css styles-->
+      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+      <link rel="stylesheet" href="css/styles.css" />
+      <!--endbuild-->
+    <title>Rockville Cafe</title>
+</head>
+<body>
+    <!--Create a larger Title section at the top of the web page-->
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-2 col-sm-1 col-md-2 align-self-center">
+                    <p>placeholder</p>
+                    <!--  <img src="assets\images\rockville-cafe-logo.png" class="img-fluid" alt="logo image in the header"/>  -->
+                </div>
+                <div class="col">
+                    <h1 class="jumbotron-h1">Rockville Cafe</h1>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cafe-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="cafe-navbar"> 
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Order Online</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                </ul>
+                
+              </div>
+        </div>  
+
+    </nav>
+    <!-- cafe information section division-->
+    <div class="container">
+        <div class="row">
+                <div class="contact-info col-6">
+                    <img src="assets\images\rockville-cafe-dining.png" class="mr-auto" alt="image cafe dining" width="1000" height="600"/>
+                   
+                </div>
+                <div class="contact-info-form col-6">
+                    <h2>Let's Talk!</h2>
+                    <h3>Rockville Cafe</h3>
+                    <p>We prefer the more personal approach of communication in person or by phone. If your matter is not urgent or critical to our operation, feel free to send a message.</p>
+                    <p>Donation requests are accepted in person, not by this form, mail or email. Due to the high volume of donation requests, only 501 (c)(3) non-profit groups within a 5-mile radius will be considered. Thank you.</p>
+                    <form>
+                        <div class="form-group row">
+                            <div class="col-3 col-form-label">
+                                <label for="full-name">Full Name:</label>
+                            </div> 
+                            <div class="col-4">
+                                <input type="text" class="form-control" id="full-name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-3 col-form-label">
+                                <label for="email">Email:</label>
+                            </div> 
+                            <div class="col-4">
+                                <input type="email" class="form-control" id="email" />
+                            </div>
+                        </div>
+
+                        <div class="form-message form-group-row">
+                            <div class="col-4 col-form-label">
+                                <label for="message">Message:</label>
+                            </div> 
+                            <div class="col-8">
+                                <textarea class="form-control" rows="5" id="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-buttons form-group row">
+                            <div class="col">
+                                <button type="button" class="btn btn-secondary">Cancel</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+
+
+                    </form>
+                </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        copyright 2021
+    </footer>
+    
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+     <!--build:js js/main.js-->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="js/scripts.js"></script>
+     <!--endbuild-->
+
+</body>
+</html>

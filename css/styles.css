@@ -1,4 +1,7 @@
 /* scss variables */
+html, body {
+  height: 100%; }
+
 .jumbotron {
   margin: 0;
   padding: 30px;
@@ -14,3 +17,65 @@
 
 .nav-link {
   text-decoration: none; }
+
+.cafe-info {
+  /* border: 1px solid black;*/ }
+
+.cafe-hours {
+  /* border-right: 1px solid black;*/
+  border: 1px solid black; }
+
+.hours-list {
+  padding-left: 50px;
+  list-style-type: none;
+  font-size: 20px; }
+
+.cafe-address {
+  /*  border-right: 1px solid black;*/
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px; }
+
+.cafe-map {
+  border: 1px solid black;
+  font-size: 20px; }
+
+.cafe-info-headings {
+  text-align: center; }
+
+.specials-row {
+  background-color: #474040; }
+
+.monthly-special-heading {
+  text-align: center; }
+
+.specials-heading {
+  text-align: center;
+  padding-right: 80px;
+  color: white;
+  font-size: 25px;
+  font-style: bold; }
+
+.special-images {
+  width: 400px;
+  height: 400px; }
+
+.about-info {
+  padding: 30px; }
+
+.contact-info {
+  padding-top: 30px; }
+
+.contact-info-form {
+  padding-top: 30px; }
+
+.form-message {
+  margin: 0;
+  padding: 0; }
+
+.form-buttons {
+  padding-top: 20px; }
+
+.site-footer {
+  background-color: #e2e6b4;
+  padding-left: 20px; }

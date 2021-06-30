@@ -1,11 +1,8 @@
 /* scss variables */
-html, body {
-  height: 100%; }
-
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #eb7d7a, #cf7575, #eb2727);
+  background-image: linear-gradient(to right, #B55054, #B55054, #A04B6C);
   color: white; }
 
 .jumbotron-h1 {
@@ -13,7 +10,7 @@ html, body {
   padding-right: 40%; }
 
 .navbar {
-  background-color: #e2e6b4; }
+  background-color: #F3EED9; }
 
 .nav-link {
   text-decoration: none; }
@@ -58,10 +55,13 @@ html, body {
 
 .special-images {
   width: 400px;
-  height: 400px; }
+  height: 350px; }
 
 .about-info {
-  padding: 30px; }
+  padding-top: 30px; }
+
+.about-info-content {
+  padding-top: 20px; }
 
 .contact-info {
   padding-top: 30px; }
@@ -77,5 +77,5 @@ html, body {
   padding-top: 20px; }
 
 .site-footer {
-  background-color: #e2e6b4;
-  padding-left: 20px; }
+  background-color: #F3EED9;
+  padding: 10px 20px; }

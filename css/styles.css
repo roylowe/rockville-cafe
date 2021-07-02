@@ -70,11 +70,12 @@
   padding-top: 20px; }
 
 .contact-info {
-  padding-top: 30px; }
+  padding-top: 30px;
+  overflow: hidden; }
 
 .contact-info-form {
   padding-top: 30px;
-  padding-left: 0; }
+  padding-left: 25px; }
 
 .form-buttons {
   padding-top: 20px; }

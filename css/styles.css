@@ -15,40 +15,39 @@
 .nav-link {
   text-decoration: none; }
 
-.cafe-info {
-  /* border: 1px solid black;*/ }
-
 .cafe-hours {
   /* border-right: 1px solid black;*/
   border: 1px solid black; }
 
 .hours-list {
-  padding-left: 50px;
+  text-align: center;
+  padding-right: 30px;
   list-style-type: none;
-  font-size: 20px; }
+  font-size: 15px; }
 
 .cafe-address {
   /*  border-right: 1px solid black;*/
   border: 1px solid black;
   text-align: center;
-  font-size: 20px; }
+  font-size: 15px; }
 
 .cafe-map {
   border: 1px solid black;
-  font-size: 20px; }
+  font-size: 15px; }
 
 .cafe-info-headings {
-  text-align: center; }
+  text-align: center;
+  padding-top: 10px; }
 
 .specials-row {
   background-color: #474040; }
 
 .monthly-special-heading {
-  text-align: center; }
+  text-align: center;
+  padding: 10px 80px 10px 0; }
 
 .specials-heading {
-  text-align: center;
-  padding-right: 80px;
+  text-indent: 150px;
   color: white;
   font-size: 25px;
   font-style: bold; }

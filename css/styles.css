@@ -2,12 +2,14 @@
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #B55054, #B55054, #A04B6C);
+  background-image: url("../assets/images/rockville-bridge.jpg");
+  background-size: cover;
+  /*background-image: linear-gradient(to right, #B55054, #B55054, #A04B6C);*/
   color: white; }
 
 .jumbotron-h1 {
   text-align: center;
-  padding-right: 40%; }
+  font-size: 80px; }
 
 .navbar {
   background-color: #F3EED9; }
